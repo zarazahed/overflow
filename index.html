@@ -2,9 +2,73 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <p>Hello</p>
+    <h1>My Hobbies</h1>
+    <div class="container">
+      <div class="nav-buttons">
+        <nav class="nav-buttons">
+          <button data-panel="1">Drawing</button>
+          <button data-panel="2">Reading</button>
+          <button data-panel="3">Baking</button>
+        </nav>
+
+        <section class="panels">
+          <div class="panel" id="panel1">
+            <h2>Drawing</h2>
+            <br />
+            <p>
+              For me, drawing is a fun way to unwind and just take some time to
+              think. I've likely spent coutless hours trying to improve my
+              skills. I often get inspired after seeing other people's art.
+            </p>
+            <br />
+            <img
+              src="https://images.pexels.com/photos/6368907/pexels-photo-6368907.jpeg"
+            />
+          </div>
+
+          <div class="panel" id="panel2">
+            <h2>Reading</h2>
+            <br />
+            <p>
+              I've always loved reading! To me, there's nothing better than
+              plopping down on a couch and finishing a book in one sitting. I
+              would list my favourite books, but to be honest, it's really
+              impossible to choose just one.
+            </p>
+            <br />
+            <img
+              src="https://www.shutterstock.com/image-photo/book-open-pages-close-up-600nw-2562942291.jpg"
+            />
+          </div>
+
+          <div class="panel" id="panel3">
+            <h2>Baking</h2>
+            <br />
+            <p>
+              Trying out new recipes is always really fun for me! I love adding
+              my own twist or addition to existing recipes. My favourite recipe
+              to make is cheesecake cookies!
+            </p>
+            <br />
+            <img
+              src="https://sugarspunrun.com/wp-content/uploads/2016/11/Cheesecake-Stuffed-CHOCOLATE-CHIP-COOKIES-1-of-1-2.jpg"
+            />
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
